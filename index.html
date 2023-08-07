@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="/web-programming/projectCountry/js/projectCountry.js" defer></script>
+  <link rel="stylesheet" href="/web-programming/projectCountry/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- prevente zoom in mobile / reference: https://stackoverflow.com/questions/4472891/how-can-i-disable-zoom-on-a-mobile-web-page -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Countries and Regions of the World</title>
+</head>
+
+<body>
+  <header>
+    <h1>Countries and Regions of the World</h1>
+    <h2>Choose a country for more information</h2>
+  </header>
+  <main>
+    <form class="containerForm">
+      <div class="name"><label for="balance">Enter the name of the country:</label></div>
+      <div class="containerInput"><input type="text" name="balance" id="balance" list="listCountries"></div>
+      <datalist id="listCountries">
+
+      </datalist>
+      <div id="msg"></div>
+      <div class="containerButtons">
+      <button class="btn" type="button" id="submit">Submit</button>
+      <button class="btn" type="button" id="reset">Reset</button>
+      </div>
+    </form>
+          <div class="head">
+            <p>Name</p>
+            <p>Region</p>
+            <p>Capital</p>
+            <p>Currencie</p>
+            <p>Languages</p>
+            <p>Flag</p>
+          </div>
+    <div class="result">
+    </div>
+  </main>
+</body>
+</html>

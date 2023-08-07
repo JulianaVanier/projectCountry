@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Karma:wght@300&family=Prata&display=swap");
+
+header {
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 4rem 30rem 2rem 30rem;
+    box-shadow: 
+    3px 3px 5px 0px #cacaca, 
+    -3px -3px 5px 0px #cacaca,
+    0px 2px 2px 0px #cacaca;
+}
+
+main {
+    border-radius: 0.5rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    box-shadow: 
+    3px 3px 5px 0px #cacaca,
+    -3px -3px 5px 0px #cacaca,
+    0px 2px 2px 0px #cacaca;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    color: grey;
+    font-family: "Catamaran", sans-serif;
+    font-size: 60px;
+    margin: 1rem auto 0 auto;
+}
+
+h2 {
+    color: grey;
+    font-family: "Karma", serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 1rem auto 0 auto;
+}
+
+.containerForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.name {
+    color: grey;
+    font-family: "Prata", serif;
+    margin-bottom: 1rem;
+    margin: 1rem auto 1rem auto;
+}
+
+.containerButtons {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    border-radius: 0.5rem;
+    border: 0.5px solid #cacaca;
+    height: 2rem;
+    margin: 1rem auto 2rem auto;
+    width: 10rem;
+}
+
+input {
+    border-radius: 0.5rem;
+    border: 0.5px solid #cacaca;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    height: 2rem;
+    width: 20rem;
+}
+
+.containerInput {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerName,
+.containerRegion,
+.containerCapital,
+.containerCurrencies {
+    color: grey;
+    text-align: center;
+}
+
+.containerInfCountry {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.containerName p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerName,
+.containerRegion,
+.containerCapital,
+.containerCurrencies,
+.containerLanguages,
+.containerImg {
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin: auto;
+}
+
+.result>div:nth-child(even){
+    background-color: rgb(241, 239, 239);
+
+}
+
+
+.containerLanguages{
+    text-align: center;
+}
+
+
+.containerImg img{
+    border: solid 0.5px grey;
+}
+
+.head {
+    background-color: #82b8d9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.head p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    height: 30px;
+    width: 50px;
+}
+
+#msg {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    /* text-decoration: none; */
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1460px) {
+    header {
+        background-color: #f8f7f7;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    main {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .head p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .containerName,
+    .containerRegion,
+    .containerCapital,
+    .containerCurrencies,
+    .containerLanguages,
+    .containerImg {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    a {
+        font-size: 10px;
+    }
+}
